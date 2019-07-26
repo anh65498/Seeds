@@ -18,7 +18,7 @@ app.use(express.static(__dirname + '/public')); // Rachel
 // tell Express to use body parser to parse client's request's information (like form's input)
 app.use(bodyParser.urlencoded({extended:true}));
 // clear Db and populate it with fake destinations. If uncomment, Might run into error "Cannot read property 'name' of null  error" then see at the end.
-seedDB()
+// seedDB()
 
 
 // ==========================================
